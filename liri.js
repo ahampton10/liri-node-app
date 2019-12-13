@@ -94,20 +94,17 @@ function movieThis() {
         
     }; 
 
-function doThis() {
-    fs.readFile("random.txt", "utf8", function (error, data) {
-        if (error) {
+    function doThis() {
+
+        fs.readFile("random.txt", "utf8", function(error, data) {
+          if (error) {
             return console.log(error);
-        }
-
-        var dataArr = data.split("|");
-
-        for (var i = 0; i < dataArr.length; i++) {
-            var dataArrT = dataArr[i].split(",");
-            userInput = dataArrT[0];
-            searchResult = dataArrT[1];
-
-            liriCom(userInput, searchResult);
-        }
+          }
+            var output = data.split(",");
+            for (var i = 0; i < output.length; i++) {
+                console.log(output[i]);
+            }
+    
+        
     });
 }

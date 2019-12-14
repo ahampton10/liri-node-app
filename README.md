@@ -1,7 +1,7 @@
 # liri-node-app
 
 ## Assignment Overview
-In this assignment, you will make LIRI. LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
+In this assignment, you will make LIRI. LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data. 
 
 ## Results
  This app was designed to produce search results based on the following commands: 
@@ -76,3 +76,5 @@ In this assignment, you will make LIRI. LIRI is like iPhone's SIRI. However, whi
                 console.log(output[i]);
             }   
            });
+## Link to App
+https://drive.google.com/file/d/1N__VfuPScWse5MdfaAxME6opCpWStp6g/view
